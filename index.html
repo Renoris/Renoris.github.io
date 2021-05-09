@@ -18,6 +18,13 @@
         <link rel="stylesheet" href="css/animation.css">
     </head>
     <style>
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
         @font-face {
       font-family: 'fontello';
       src: url('./font/fontello.eot?65716439');
@@ -28,16 +35,33 @@
       font-weight: normal;
       font-style: normal;
     }
-     
-     
+    body{
+        background-color: #E1DCD9;
+        color:#32435F;
+        font-family: 'GmarketSansMedium';
+    }
+    a{
+        color:#A67F78;
+    }
+
+    .text-primary{
+        font-family: 'GmarketSansMedium';
+        font-size: 0.8em;
+        margin-top: 5px;
+    }
+
+    .text-etc{
+        color: #D98D72;
+        font-size: 1em;
+    }
     .demo-icon
     {
       font-family: "fontello";
       font-style: normal;
       font-weight: normal;
       speak: never;
-    height: 1.3em;
-    width: 1.3em;
+        height: 1.3em;
+        width: 1.3em;
       display: inline-block;
       text-decoration: inherit;
       
@@ -89,11 +113,10 @@
                 <div class="resume-section-content">
                     <h1 class="mb-3">
                         Kim ByungJun
-                        <span class="text-primary">김병준</span>
+                        <div class="text-primary">김병준</div>
                     </h1>
                     <div class="subheading mb-3">
-                        제주특별자치도 연동 연문2길-15 삼성주택 302호 &nbsp;
-                        <a href="celbever@naver.com">celbever@naver.com</a>
+                        <a href="celbever@naver.com">renoplaze@gmail.com</a>
                     </div>
                     <p class="lead mb-5">Java와 SpringFramework를 주로 다루는 Web Back-end 주니어 개발자 입니다.</p>
                     <div class="social-icons">
@@ -111,7 +134,8 @@
                     <h2 class="mb-5">Project</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">JnuGraduate</h3>
+                            <h3 class="mb-2">JnuGraduate</h3>
+                            <div class="flex-shrink-0 mb-2"><span class="text-etc"># team</span></div>
                             <div class="subheading mb-3">Android front_end</div>
                             <p>졸업 판별 어플리케이션. front end파트를 맡았으며 back_end 에서 가져온 데이터를 파싱하여 동적으로 view를 생성하여 보여주는 역할.<br><br>
                                 <a href="https://github.com/kohyerim/jnu_graduate">https://github.com/kohyerim/jnu_graduate</a>
@@ -121,7 +145,8 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">My portalService</h3>
+                            <h3 class="mb-2">My portalService</h3>
+                            <div class="flex-shrink-0 mb-2"><span class="text-etc"># alone</span></div>
                             <div class="subheading mb-3">Spring back_end,bootstrap</div>
                             <p>게시판 사이트, 이미지를 올릴 수 있게 하거나 간단한 미니게임을 구현한 simple website<br><br>
                                 <a href="https://github.com/Renoris/portalservice">https://github.com/Renoris/portalservice</a>
@@ -131,17 +156,20 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Share_Calendar</h3>
+                            <h3 class="mb-2">Share_Calendar</h3>
+                            <div class="flex-shrink-0 mb-2"><span class="text-etc"># alone</span></div>
                             <div class="subheading mb-3">Spring back_end, bootstrap</div>
                             <p>React로 구현된 FullCandlar 라이브러리를 사용하여 다른사람과 공유가능한 todo app<br><br>
                                 <a href="https://github.com/Renoris/We_are_Carlendar">https://github.com/Renoris/We_are_Carlendar</a>
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2021 - Febuaray 2021</span></div>
+                        
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">fashion suggest application</h3>
+                            <h3 class="mb-2">fashion suggest application</h3>
+                            <div class="flex-shrink-0 mb-2"><span class="text-etc"># alone</span></div>
                             <div class="subheading mb-3">middleServer-SpringBoot</div>
                             <p>Client가 보내주는 이미지를 Python flask로 보내주고 처리 결과를 받아 적정한 결과를 return 하는 middle Server<br><br>
                                 <a href="https://github.com/Renoris/middleServer">https://github.com/Renoris/middleServer</a>
@@ -161,7 +189,6 @@
                             <h3 class="mb-0">Jeju National University</h3>
                             <div class="subheading mb-3">College of Engineering</div>
                             <div>Computer Science</div>
-                            <p>현재학점: 3.28/4.3</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2015 - Febuaray 2021</span></div>
                     </div>
@@ -180,20 +207,16 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
+                    <ul class="list-inline dev-icons"><i class="fab fa-android"></i>
                         <li class="list-inline-item"><div title="html"><i class="fab fa-html5"></i></div></li>
                         <li class="list-inline-item"><div title="css"><i class="fab fa-css3-alt"></i></div></li>
                         <li class="list-inline-item"><div title="javascript"><i class="fab fa-js-square"></div></i></li>
                         <li class="list-inline-item"><div title="java"><i class="fab fa-java"></i></div></li>
+                        <li class="list-inline-item"><div title="android"><i class="fab fa-android"></i></i></div></li>
                         <li class="list-inline-item"><div class="the-icons span3" title="spring"><i class="demo-icon icon-springio-icon">&#xe800;</i></div></li>
                     </ul>
                   
             </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-        
-            <hr class="m-0" />
-            <!-- Awards-->
        
         </div>
         <!-- Bootstrap core JS-->

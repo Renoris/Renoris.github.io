@@ -6519,7 +6519,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #3053b4 !important;
+  background-color: #8f8681 !important;
 }
 
 a.bg-primary:hover,
@@ -10228,7 +10228,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #a67f78 !important;
 }
 
 a.text-primary:hover,
@@ -10573,4 +10573,3 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
