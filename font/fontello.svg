@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="springio-icon" unicode="&#xe800;" d="M909 797a461 461 0 0 0-53-94 502 502 0 1 1-700-718l18-17a501 501 0 0 1 823 348c14 128-24 289-88 481z m-682-815a43 43 0 1 0-6 60 43 43 0 0 0 6-60z m680 150c-123-165-388-109-557-117 0 0-30-2-60-7 0 0 11 5 26 11 119 41 175 49 247 86 136 69 271 221 299 378-52-151-209-282-352-334-98-37-275-72-275-72l-8 4c-120 59-124 320 95 404 96 37 188 17 292 41 111 27 239 110 291 218 58-173 128-444 2-612z" horiz-adv-x="1000" />
+
+<glyph glyph-name="tistory-logo" unicode="&#xe801;" d="M500 850c-276 0-500-224-500-500s224-500 500-500 500 224 500 500-224 500-500 500z m-216-417a86 86 0 1 0 86 86 86 86 0 0 0-86-86z m216-433a86 86 0 1 0 86 87 86 86 0 0 0-86-87z m0 217a86 86 0 1 0 86 86 86 86 0 0 0-86-86z m0 216a86 86 0 1 0 86 86 86 86 0 0 0-86-86z m216 0a86 86 0 1 0 87 86 86 86 0 0 0-87-86z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
