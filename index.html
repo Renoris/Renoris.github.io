@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <title>Renoris_Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <!-- <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script> -->
@@ -18,76 +18,106 @@
         <link rel="stylesheet" href="css/animation.css">
     </head>
     <style>
-
-@font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
         @font-face {
-      font-family: 'fontello';
-      src: url('./font/fontello.eot?65716439');
-      src: url('./font/fontello.eot?65716439#iefix') format('embedded-opentype'),
-           url('./font/fontello.woff?65716439') format('woff'),
-           url('./font/fontello.ttf?65716439') format('truetype'),
-           url('./font/fontello.svg?65716439#fontello') format('svg');
-      font-weight: normal;
-      font-style: normal;
-    }
-    body{
-        background-color: #E1DCD9;
-        color:#32435F;
-        font-family: 'GmarketSansMedium';
-    }
-    a{
-        color:#A67F78;
-    }
+            font-family: 'GmarketSansMedium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'fontello';
+            src: url('./font/fontello.eot?65716439');
+            src: url('./font/fontello.eot?65716439#iefix') format('embedded-opentype'),
+                url('./font/fontello.woff?65716439') format('woff'),
+                url('./font/fontello.ttf?65716439') format('truetype'),
+                url('./font/fontello.svg?65716439#fontello') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            background-color: #E1DCD9;
+            color:#32435F;
+            font-family: 'GmarketSansMedium';
+        }
+        @media (max-width:1420px){
+            #sideNav .navbar-brand .img-profile {
+                max-width: 8.5rem;
+                max-height: 8.5rem;
+            }
+            body{
+                font-size:0.8em;
+            }
 
-    .text-primary{
-        font-family: 'GmarketSansMedium';
-        font-size: 0.8em;
-        margin-top: 5px;
-    }
+            h1{
+                font-size: 5rem;
+            }
+            .ItitleE{
+                font-size: 1.3rem;
+            }
+            p.lead{
+                font-size: 1rem;
+            }
+            .social-icons .social-icon {
+                width: 3.2rem;
+                height: 3.2rem;
+            }
+        }
 
-    .text-etc{
-        color: #D98D72;
-        font-size: 1em;
-    }
-    .demo-icon
-    {
-      font-family: "fontello";
-      font-style: normal;
-      font-weight: normal;
-      speak: never;
-        height: 1.3em;
-        width: 1.3em;
-      display: inline-block;
-      text-decoration: inherit;
-      
-      text-align: center;
-      /* opacity: .8; */
-     
-      /* For safety - reset parent styles, that can break glyph codes*/
+        @media (max-width:1100px){
+            body{
+                font-size:0.7em;
+            }
 
-     
-      /* fix buttons height, for twitter bootstrap */
+            h1{
+                font-size: 4.5rem;
+            }
+            .ItitleE{
+                font-size: 1.1rem;
+            }
+            p.lead{
+                font-size: 0.9rem;
+            }
+            .social-icons .social-icon {
+                width: 2.8rem;
+                height: 2.8rem;
+            }
+        }
 
-     
-      /* Animation center compensation - margins should be symmetric */
-      /* remove if not needed */
 
-     
-      /* You can be more comfortable with increased icons size */
-      /* font-size: 120%; */
-     
-      /* Font smoothing. That was taken from TWBS */
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-     
-      /* Uncomment for 3D effect */
-      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-    }
+        @media (max-width:991px){
+            body{
+                font-size:1em;
+            }
+        }
+
+        a{
+            color:#A67F78;
+        }
+
+        .text-primary{
+            font-family: 'GmarketSansMedium';
+            font-size: 0.8em;
+            margin-top: 5px;
+        }
+
+        .text-etc{
+            font-family: 'GmarketSansMedium';
+            color: #D98D72;
+            font-size: 1em;
+        }
+        .demo-icon
+        {
+            font-family: "fontello";
+            font-style: normal;
+            font-size: inherit;
+            height: 1em;
+            width: 1em;
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
     </style>
     <body id="page-top">
         <!-- Navigation-->
@@ -101,6 +131,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Project">Project</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Study">Study</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 </ul>
@@ -112,15 +143,17 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-3">
-                        Kim ByungJun
-                        <div class="text-primary">김병준</div>
+                        <div class="ItitleN">Kim ByungJun</div>
+                        <div class="text-primary ItitleN">김병준</div>
                     </h1>
-                    <div class="subheading mb-3">
-                        <a href="celbever@naver.com">renoplaze@gmail.com</a>
+                    <div class="ItitleE subheading mb-3">
+                        <a href="renoplaze@gmail.com">renoplaze@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Java와 SpringFramework를 주로 다루는 Web Back-end 주니어 개발자 입니다.</p>
+                    <p class="lead mb-5">
+                        저는 Java와 SpringFramework를 주로 다루는 Web Back-end 주니어 개발자 입니다.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://renoris.tistory.com/"><i class="demo-icon icon-tistory-logo">&#xe801;</i></a>
+                        <!-- <a class="social-icon" href="https://renoris.tistory.com/"><i class="demo-icon icon-tistory-logo">&#xe801;</i></a> -->
+                        <a class="social-icon" href="https://renoris.tistory.com/"><i class="fab fa-tistory"></i></a>
                         <a class="social-icon" href="https://github.com/renoris"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="https://www.facebook.com/celbever"><i class="fab fa-facebook-f"></i></a>
                     </div>
@@ -137,7 +170,9 @@
                             <h3 class="mb-2">JnuGraduate</h3>
                             <div class="flex-shrink-0 mb-2"><span class="text-etc"># team</span></div>
                             <div class="subheading mb-3">Android front_end</div>
-                            <p>졸업 판별 어플리케이션. front end파트를 맡았으며 back_end 에서 가져온 데이터를 파싱하여 동적으로 view를 생성하여 보여주는 역할.<br><br>
+                            <p>제주대학교 컴퓨터 공학과 졸업 판별 어플리케이션.<br>
+                                front end파트를 맡았으며 back_end 에서 가져온 데이터를 파싱하여 동적으로<br>
+                                view를 생성하여 보여주는 역할과 디자인을 맡았음.<br><br>
                                 <a href="https://github.com/kohyerim/jnu_graduate">https://github.com/kohyerim/jnu_graduate</a>
                             </p>
                         </div>
@@ -169,13 +204,32 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-2">fashion suggest application</h3>
-                            <div class="flex-shrink-0 mb-2"><span class="text-etc"># alone</span></div>
-                            <div class="subheading mb-3">middleServer-SpringBoot</div>
-                            <p>Client가 보내주는 이미지를 Python flask로 보내주고 처리 결과를 받아 적정한 결과를 return 하는 middle Server<br><br>
+                            <div class="flex-shrink-0 mb-2"><span class="text-etc"># team</span></div>
+                            <div class="subheading mb-3">SpringBoot - Back_End</div>
+                            <p>client(IOS)와 이미지처리 AI (Python-flask)간 사이에서 데이터를 처리하고 전달하는 로직을 담당하는<br>
+                                middle server를 spring boot로 구축하는 역할을 담당.<br><br>
                                 <a href="https://github.com/Renoris/middleServer">https://github.com/Renoris/middleServer</a>
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2021 - Present</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- study-->
+            <section class="resume-section" id="Study">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Study</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2">Algorithm</h3>
+                            <div class="subheading mb-3">Algorithm Study</div>
+                            <p>
+                                "DP,Queue,Stack,Dfs,Bfs,최단거리,greedy"<br><br>
+                                <a href="https://github.com/BlueScreenMaker/renoris_Algorithm">https://github.com/BlueScreenMaker/renoris_Algorithm</a>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Febuaray 2021 - Present</span></div>
                     </div>
                 </div>
             </section>
@@ -194,7 +248,7 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">제주 제일 고등학교</h3>
+                            <h3 class="mb-0">Jeju Jeil High School</h3>
                             <div class="subheading mb-3"></div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2012 - Febuaray 2015</span></div>
